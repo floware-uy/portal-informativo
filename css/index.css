@@ -8,10 +8,10 @@
   --color-white: #ffffff;
   --color-primary: #1578d5;
   --color-black: #000000;
-  --color-gray-200: #bebebe;
-  --color-gray-600: #525252;
+  --color-gray-200: #e2e2e2;
+  --color-gray-600: #424242;
   --color-gray-800: #323232;
-  --border-radius: 8px;
+  --border-radius: 20px;
 }
 
 a {
@@ -41,8 +41,8 @@ body {
   top: 0;
   width: 100vw;
   background-color: var(--color-white);
-  padding: 10px 20px;
-  border-bottom: 2px solid var(--color-gray-200);
+  padding: 15px 20px;
+  border-bottom: 3px solid var(--color-gray-200);
 }
 
 .header__link {
@@ -68,23 +68,63 @@ body {
 .main {
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin-top: 150px;
+  gap: 60px;
+  margin-top: 69px;
+}
+
+.main__intro {
+  gap: 10px;
+  text-align: center;
+  background-color: var(--color-white);
+  padding: 30px 20px;
+  width: 100%;
+  border-bottom: 2px solid var(--color-gray-200);
+}
+
+.main__intro-title {
+  color: var(--color-gray-800);
+}
+
+.main__intro-desc {
+  font-size: 1.15em;
+  color: var(--color-gray-600);
+}
+
+.main__link-container {
+  gap: 20px;
 }
 
 .main__link {
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   width: 100%;
-  padding: 50px;
+  padding: 30px 20px;
   background-color: #1578d5;
   color: #ffffff;
   text-align: center;
   font-size: 1.5em;
-  font-weight: bold;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: 10px solid #1578d5;
   transition:
     color 0.3s ease,
     background-color 0.3s ease;
+}
+
+.main__link svg {
+  width: 75px;
+  height: 75px;
+  background-color: #4487bb;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.main__link h4 {
+  font-size: 1.3em;
+}
+
+.main__link p {
+  font-size: 0.9em;
 }
 
 .main__link:focus {
