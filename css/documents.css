@@ -90,7 +90,6 @@ body {
 
 .main__section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -100,15 +99,16 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
-  padding: 20px;
-  background-color: #1578d5;
-  color: #ffffff;
-  border-radius: 5px;
+  padding: 30px 20px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: var(--border-radius);
   font-weight: bold;
   hyphens: auto;
   transition:
     color 0.3s ease,
     background-color 0.3s ease;
+  font-size: 1.2em;
 }
 
 .main__link:focus {
