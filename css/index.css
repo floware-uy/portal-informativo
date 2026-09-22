@@ -43,6 +43,7 @@ body {
   background-color: var(--color-white);
   padding: 15px 20px;
   border-bottom: 3px solid var(--color-gray-200);
+  z-index: 20;
 }
 
 .header__link {
@@ -220,7 +221,10 @@ body {
   .main__link {
     padding: 40px 10px;
     width: 40%;
-    transition: transform 0.3s ease;
+    transition:
+      transform 0.3s ease-in-out,
+      background-color 0.3s ease,
+      color 0.3s ease;
   }
 
   .main__link-container h4 {
