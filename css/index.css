@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-white: #ffffff;
+  --color-primary: #1578d5;
+  --color-black: #000000;
+  --border-radius: 8px;
+}
+
 a {
   color: #000000;
   text-decoration: none;
