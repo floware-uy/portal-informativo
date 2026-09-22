@@ -68,13 +68,24 @@ body {
 /* main */
 
 .main {
-  margin-top: 100px;
+  margin-top: 110px;
   gap: 40px;
 }
 
-.main__title {
-  font-size: 2em;
+.main__intro {
+  gap: 10px;
   text-align: center;
+  padding: 0px 20px;
+}
+
+.main__intro-title {
+  font-size: 2em;
+  color: var(--color-gray-800);
+}
+
+.main__intro-desc {
+  font-size: 1.15em;
+  color: var(--color-gray-600);
 }
 
 .main__section {
