@@ -21,7 +21,7 @@ Diseñado para ser accedido mediante **códigos QR situados en el Hospital de Cl
 - **Acceso Universal e Inmediato:** Sin autenticación ni formularios de ingreso; optimizado para lectura rápida desde dispositivos móviles mediante escaneo de código QR.
 - **Catálogo Informativo:** Artículos y recomendaciones médicas categorizadas por áreas de la salud y patologías comunes.
 - **Diseño Responsivo y Accesible:** Interfaz adaptable a cualquier tamaño de pantalla (móviles, tabletas y computadoras).
-- **Arquitectura Modular:** Preparado para la futura integración con **PHP** y bases de datos relacionales (**MySQL**) para la administración dinámica de contenidos.
+- **Arquitectura Modular:** Preparado para la futura integración con **PHP** y bases de datos relacionales (**MariaDB**) para la administración dinámica de contenidos.
 
 ---
 
@@ -30,4 +30,4 @@ Diseñado para ser accedido mediante **códigos QR situados en el Hospital de Cl
 - **HTML5:** Estructuración semántica de los documentos y contenido informativo.
 - **CSS3:** Estilos corporativos, diseño responsivo y arquitectura visual.
 - **JavaScript (Vanilla ES6+):** Filtros de búsqueda, navegación dinámica e interactividad en el cliente.
-- **PHP & MySQL:** _En proceso de integración para el almacenamiento y gestión dinámica de las guías médicas._
+- **PHP & MariaDB:** _En proceso de integración para el almacenamiento y gestión dinámica de las guías médicas._
