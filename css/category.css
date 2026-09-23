@@ -181,7 +181,7 @@ body {
   bottom: 0;
   width: 100%;
   padding: 10px 20px;
-  background-color: #1763a1;
+  background-color: #114064;
 }
 
 .nav__list {
@@ -192,10 +192,11 @@ body {
 
 .nav__link {
   display: flex;
+  gap: 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .nav__link svg {
@@ -206,8 +207,8 @@ body {
 /* footer */
 
 .footer {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 65px;
   padding: 20px 0;
   background-color: #1763a1;
   color: #fff;
