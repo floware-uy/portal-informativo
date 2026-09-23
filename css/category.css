@@ -312,10 +312,6 @@ body {
     margin: 0 auto;
   }
 
-  .header {
-    height: 60px;
-  }
-
   .header__flex {
     display: flex;
     justify-content: space-between;
@@ -328,7 +324,7 @@ body {
 
   .header__link-title:hover,
   .nav__desktop a:hover {
-    color: #1578d5;
+    color: var(--color-primary);
   }
 
   .nav {
@@ -337,38 +333,47 @@ body {
 
   .nav__desktop {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
   }
 
+  .nav__desktop a {
+    color: var(--color-gray-800);
+    font-weight: 600;
+  }
   .main {
     margin-top: 50px;
     gap: 30px;
   }
 
   .search {
-    margin-top: 50px;
+    margin-top: 60px;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    font-size: 0.8em;
   }
 
   .search__input {
-    width: 60%;
-    font-size: 1em;
-    height: 40px;
+    width: 90%;
   }
-
   .search__btn {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     cursor: pointer;
   }
 
   .search__btn:hover {
-    opacity: 0.9;
+    opacity: 0.8;
   }
 
   .main__title {
     font-size: 2em;
     margin-top: 0;
+  }
+
+  .file__list {
+    width: 80%;
   }
 
   .file__section {
@@ -377,13 +382,17 @@ body {
   }
 
   .file__btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
   }
 
-  .file__btn:hover {
-    opacity: 0.8;
+  .file__btn svg {
+    transition: color 0.3s ease;
+  }
+
+  .file__btn svg:hover {
+    color: var(--color-primary);
   }
 
   .footer {
