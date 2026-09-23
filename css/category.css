@@ -126,24 +126,33 @@ body {
 }
 
 .main__title {
-  margin-top: 20px;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
+  color: var(--color-gray-800);
+}
+
+.file__list {
+  border: 2px solid var(--color-gray-200);
+  box-shadow: 0px 1px 2px rgb(224, 224, 224);
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .file__section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
   width: 100%;
   padding: 20px 30px;
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0px 1px 2px rgb(224, 224, 224);
+  background-color: var(--color-white);
+  outline: 1px solid var(--color-gray-200);
 }
 
 .file__name {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: var(--color-gray-600);
 }
 
 .file__btn-container {
@@ -151,22 +160,14 @@ body {
   gap: 10px;
 }
 
-.file__btn {
-  border: 2px solid rgb(165, 165, 165);
-  border-radius: 5px;
-  padding: 5px;
-  background-color: transparent;
-  border: none;
-}
-
 .file__btn svg {
   width: 20px;
   height: 100%;
-  color: #000;
+  color: var(--color-gray-600);
 }
 
 .file__btn:focus.file__btn svg {
-  color: #1578d5;
+  color: var(--color-primary);
 }
 
 .nav__desktop {
