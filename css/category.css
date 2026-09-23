@@ -333,14 +333,16 @@ body {
 
   .nav__desktop {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     align-items: center;
   }
 
   .nav__desktop a {
     color: var(--color-gray-800);
     font-weight: 600;
+    padding: 5px 10px;
   }
+
   .main {
     margin-top: 50px;
     gap: 30px;

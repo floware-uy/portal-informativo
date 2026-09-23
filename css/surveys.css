@@ -328,8 +328,10 @@ body {
     margin: 0 auto;
   }
 
-  .header {
-    height: 60px;
+  .nav__desktop .active {
+    background-color: #e8f1fa;
+    color: var(--color-primary);
+    border-radius: 8px;
   }
 
   .header__flex {
@@ -344,17 +346,17 @@ body {
 
   .header__link-title:hover,
   .nav__desktop a:hover {
-    color: #1578d5;
+    color: var(--color-primary);
   }
 
   .form__option:hover {
     background-color: #cccccc;
-    color: #000;
+    color: var(--color-black);
   }
 
   .form__field button:hover {
-    background-color: #ffffff;
-    color: #1578d5;
+    background-color: var(--color-white);
+    color: var(--color-primary);
   }
 
   .nav {
@@ -363,8 +365,14 @@ body {
 
   .nav__desktop {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
+  }
+
+  .nav__desktop a {
+    color: var(--color-gray-800);
+    font-weight: 600;
+    padding: 5px 10px;
   }
 
   .main {
